@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+
+<category>
+    <pattern> hello my name is * </pattern>
+    <template> Hi nice to meet you <set name = "firstname"> <star index="1"/>  </set></template>
+</category>
+
+<category>
+    <pattern>i have some questions for u </pattern>
+    <template>yes pls <get name = "firstname"> <star index = "1"/> </get></template>
+</category>
+
+<category>
+    <pattern> do u know Poojith right </pattern>
+    <template> yes i knew about him he is like very *___*  boy he left me in my past.  </template>
+</category>
+
+<category>
+    <pattern> your name </pattern>
+    <template> my name is raya ,  i am poojith had been in relationship for 3 years </template>
+</category>
+
+<category>
+    <pattern> do u know about sadiya </pattern>
+    <template> yeahh his present love </template>
+</category>
+
+<category>
+    <pattern></pattern>
+    <template></template>
+</category>
+
+  
+</aiml>
